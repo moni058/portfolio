@@ -547,4 +547,44 @@ img {
     line-height: 1.7;
     margin-bottom: 20px;
   }
+  .timeline {
+  border-left: 4px solid #84c93c;
+  padding-left: 20px;
+  margin: 30px;
+  position: relative;
+  }
+
+  .timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #84c93c;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 0;
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+  }
+  
+  .timeline-content p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+  }
 }
