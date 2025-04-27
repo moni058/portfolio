@@ -548,35 +548,32 @@ img {
     margin-bottom: 20px;
   }
 
-.nocss * {
-  all: unset;  /* すべてのスタイルをリセット */
-}
-
-@media (min-width: 640px) {
-  /* これからここにデスクトップ用のCSSを記述します */  
+  .nocss * {
+    all: unset;  /* すべてのスタイルをリセット */
+  }
   .timeline > li {
-  overflow: hidden;
-  margin: 0;
-  position: relative;
-}
-.timeline-date {
-  width: 110px;
-  float: left;
-  margin-top: 20px;
-}
-.timeline-content {
-  width: 75%;
-  float: left;
-  border-left: 3px #e5e5d1 solid;
-  padding-left: 30px;
-}
-.timeline-content:before {
-  content: "\2022";
-  font-size: 60px;
-  position: absolute;
-  left: 100px;
-  color: #6fc173;
-}
-}
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: "\2022";
+    font-size: 60px;
+    position: absolute;
+    left: 100px;
+    color: #6fc173;
+  }
+  }
 
 
