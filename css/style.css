@@ -551,6 +551,9 @@ img {
 .nocss * {
   all: unset;  /* すべてのスタイルをリセット */
 }
+
+@media (min-width: 640px) {
+  /* これからここにデスクトップ用のCSSを記述します */  
   .timeline > li {
   overflow: hidden;
   margin: 0;
@@ -573,6 +576,7 @@ img {
   position: absolute;
   left: 100px;
   color: #6fc173;
+}
 }
 
 
