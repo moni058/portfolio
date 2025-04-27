@@ -553,6 +553,7 @@ img {
   }
   .nocss * {
     all: reset;
+  }
 
   .timeline {
     list-style: none;
