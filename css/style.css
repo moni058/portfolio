@@ -377,6 +377,10 @@ img {
   text-align: center;
 }
 
+.nocss * {
+  all: reset;
+}
+
 
 
 /*media Queries 767
