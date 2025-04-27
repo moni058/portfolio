@@ -558,6 +558,7 @@ img {
   /* これからここにデスクトップ用のCSSを記述します */
 
   .timeline > li {
+    overflow: hidden;
     margin: 0;
     position: relative;
   }
@@ -573,11 +574,14 @@ img {
     padding-left: 30px;
   }
   .timeline-content:before {
-    content: "\2022";
-    font-size: 60px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
     position: absolute;
-    left: 100px;
-    color: #6fc173;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
   }
 }
 
