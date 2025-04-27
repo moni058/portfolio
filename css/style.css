@@ -554,7 +554,7 @@ img {
 .timeline > li {
   margin-bottom: 60px;
 }
-@media (min-width: 640px) {
+@media (min-width: 767px) {
   /* これからここにデスクトップ用のCSSを記述します */
   .nocss * {
     all: unset;  /* すべてのスタイルをリセット */
