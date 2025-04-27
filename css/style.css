@@ -548,8 +548,7 @@ img {
     margin-bottom: 20px;
   }
 
-  /* .no-style-section内のすべての要素にスタイルを適用しない */
- .career section * {
+ .nocss * {
   all: unset;  /* すべてのスタイルをリセット */
 }
 
