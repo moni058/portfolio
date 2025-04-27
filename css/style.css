@@ -547,17 +547,21 @@ img {
     line-height: 1.7;
     margin-bottom: 20px;
   }
+  .nocss * {
+    all: reset;
+
+  .timeline {
+    list-style: none;
+  }
+  .timeline > li {
+    margin-bottom: 60px;
+  }
 }
 
-.nocss * {
-  all: reset;
 
-.timeline {
-  list-style: none;
-}
-.timeline > li {
-  margin-bottom: 60px;
-}
+
+
+  
 @media (min-width: 767px) {
   /* これからここにデスクトップ用のCSSを記述します */
 
