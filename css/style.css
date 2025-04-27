@@ -377,9 +377,6 @@ img {
   text-align: center;
 }
 
-.nocss * {
-  all: reset;
-}
 
 
 
@@ -569,6 +566,10 @@ img {
   
 @media (min-width: 767px) {
   /* これからここにデスクトップ用のCSSを記述します */
+
+  .nocss * {
+    all: reset;
+  }
 
   .timeline > li {
     overflow: hidden;
