@@ -377,9 +377,7 @@ img {
   text-align: center;
 }
 
-.nocss * {
-  all: reset;
-}
+
 
 /*media Queries 767
 ----------------------------------------------------*/
@@ -551,9 +549,7 @@ img {
     line-height: 1.7;
     margin-bottom: 20px;
   }
-  .nocss * {
-    all: reset;
-  }
+
 
   .timeline {
     list-style: none;
