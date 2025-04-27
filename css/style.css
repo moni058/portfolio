@@ -574,6 +574,7 @@ img {
     overflow: hidden;
     margin: 0;
     position: relative;
+    margin-bottom: 30px;
   }
   .timeline-date {
     width: 110px;
