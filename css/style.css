@@ -1,3 +1,27 @@
+.timeline > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+.timeline-date {
+  width: 110px;
+  float: left;
+  margin-top: 20px;
+}
+.timeline-content {
+  width: 75%;
+  float: left;
+  border-left: 3px #e5e5d1 solid;
+  padding-left: 30px;
+}
+.timeline-content:before {
+  content: "\2022";
+  font-size: 60px;
+  position: absolute;
+  left: 100px;
+  color: #6fc173;
+}
+
 body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 15px;
@@ -547,64 +571,3 @@ img {
     line-height: 1.7;
     margin-bottom: 20px;
   }
- /* timeline専用スタイル */
-.timeline {
-  position: relative;
-  margin: 2rem 0;
-  padding: 0;
-  list-style: none;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 20px;
-  width: 2px;
-  background: #ccc;
-}
-
-.timeline li {
-  position: relative;
-  margin: 2rem 0;
-  padding-left: 50px;
-}
-
-.timeline-date {
-  font-size: 0.9rem;
-  color: #888;
-  margin-bottom: 0.5rem;
-}
-
-.timeline-content {
-  background: #f9f9f9;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.timeline-content h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.timeline-content p {
-  margin: 0.5rem 0 0 0;
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* 小さい丸アイコン */
-.timeline li::before {
-  content: '';
-  position: absolute;
-  top: 0.5rem;
-  left: 12px;
-  width: 16px;
-  height: 16px;
-  background: white;
-  border: 2px solid #4CAF50;
-  border-radius: 50%;
-}
