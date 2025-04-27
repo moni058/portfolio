@@ -586,6 +586,7 @@ img {
     float: left;
     border-left: 3px #e5e5d1 solid;
     padding-left: 30px;
+    margin-top: 20px;
   }
   .timeline-content:before {
     content: "";
