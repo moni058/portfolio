@@ -547,7 +547,15 @@ img {
     line-height: 1.7;
     margin-bottom: 20px;
   }
-
+}
+.timeline {
+  list-style: none;
+}
+.timeline > li {
+  margin-bottom: 60px;
+}
+@media (min-width: 640px) {
+  /* これからここにデスクトップ用のCSSを記述します */
   .nocss * {
     all: unset;  /* すべてのスタイルをリセット */
   }
@@ -574,6 +582,6 @@ img {
     left: 100px;
     color: #6fc173;
   }
-  }
+}
 
 
