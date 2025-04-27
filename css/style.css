@@ -564,13 +564,13 @@ img {
   .timeline-date {
     width: 110px;
     float: left;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .timeline-content {
     width: 75%;
     float: left;
     border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
+    padding-left: 60px;
   }
   .timeline-content:before {
     content: "\2022";
