@@ -377,6 +377,10 @@ img {
   text-align: center;
 }
 
+.nocss * {
+  all: reset;
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
@@ -564,9 +568,6 @@ img {
   
 @media (min-width: 767px) {
   /* これからここにデスクトップ用のCSSを記述します */
-
-  .nocss * {
-  all: reset;
 
   .timeline > li {
     overflow: hidden;
