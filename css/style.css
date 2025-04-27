@@ -549,7 +549,7 @@ img {
   }
 
   /* .no-style-section内のすべての要素にスタイルを適用しない */
- * {
+ .career section * {
   all: unset;  /* すべてのスタイルをリセット */
 }
 
