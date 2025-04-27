@@ -548,6 +548,10 @@ img {
     margin-bottom: 20px;
   }
 }
+
+.nocss * {
+  all: reset;
+
 .timeline {
   list-style: none;
 }
