@@ -548,6 +548,12 @@ img {
     margin-bottom: 20px;
   }
 
+  /* .no-style-section内のすべての要素にスタイルを適用しない */
+ * {
+  all: unset;  /* すべてのスタイルをリセット */
+}
+
+
   .timeline > li {
   overflow: hidden;
   margin: 0;
